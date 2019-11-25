@@ -1,6 +1,7 @@
 const theme = {
-    text: {
+    default: {
         color: `rgba(0, 0, 0, 0.87)`,
+        buttonColor: '#1e6c82',
         fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
         fontSize : `14px`,
         },
