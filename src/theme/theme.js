@@ -3,6 +3,7 @@ const theme = {
         link: {
             blue: {
                 outline: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: '#1e6c82',    
                     backgroundColor: 'transparent',
                     borderColor: '#1e6c82',
@@ -18,6 +19,7 @@ const theme = {
                     textDecoration: 'none'
                 },
                 default: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: 'white',    
                     backgroundColor: '#1e6c82',
                     borderColor: '#1e6c82',
@@ -50,6 +52,7 @@ const theme = {
             },
             orange: {
                 outline: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: '#be6046',    
                     backgroundColor: 'transparent',
                     borderColor: '#be6046',
@@ -65,6 +68,7 @@ const theme = {
                     textDecoration: 'none'
                 },
                 default: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: 'white',    
                     backgroundColor: '#be6046',
                     borderColor: '#be6046',
@@ -80,6 +84,7 @@ const theme = {
                     textDecoration: 'none'
                 },
                 text: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: '#be6046',
                     backgroundColor: 'transparent',
                     cursor: 'pointer',
@@ -92,11 +97,11 @@ const theme = {
                     fontWeight: 400,
                     padding: '.375rem .75rem',
                     textDecoration: 'none'
-                },
-                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
+                }
             },
             danger: {
                 outline: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: '#F2545B',    
                     backgroundColor: 'transparent',
                     borderColor: '#F2545B',
@@ -112,6 +117,7 @@ const theme = {
                     textDecoration: 'none'
                 },
                 default: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: 'white',    
                     backgroundColor: '#F2545B',
                     borderColor: '#F2545B',
@@ -127,6 +133,7 @@ const theme = {
                     textDecoration: 'none'
                 },
                 text: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: '#F2545B',
                     backgroundColor: 'transparent',
                     cursor: 'pointer',
@@ -140,10 +147,10 @@ const theme = {
                     padding: '.375rem .75rem',
                     textDecoration: 'none'
                 },
-                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
             },
             success: {
                 outline: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: '#63A375',    
                     backgroundColor: 'transparent',
                     borderColor: '#63A375',
@@ -159,6 +166,7 @@ const theme = {
                     textDecoration: 'none'
                 },
                 default: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: 'white',    
                     backgroundColor: '#63A375',
                     borderColor: '#63A375',
@@ -174,6 +182,7 @@ const theme = {
                     textDecoration: 'none'
                 },
                 text: {
+                    fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                     color: '#63A375',
                     backgroundColor: 'transparent',
                     cursor: 'pointer',
@@ -186,12 +195,12 @@ const theme = {
                     fontWeight: 400,
                     padding: '.375rem .75rem',
                     textDecoration: 'none'
-                },
-                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
+                }
             }
         },
         blue: {
             outline: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: '#1e6c82',    
                 backgroundColor: 'transparent',
                 borderColor: '#1e6c82',
@@ -206,6 +215,7 @@ const theme = {
                 padding: '.375rem .75rem'
             },
             default: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: 'white',    
                 backgroundColor: '#1e6c82',
                 borderColor: '#1e6c82',
@@ -220,6 +230,7 @@ const theme = {
                 padding: '.375rem .75rem'
             },
             text: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: '#1e6c82',
                 backgroundColor: 'transparent',
                 cursor: 'pointer',
@@ -231,11 +242,11 @@ const theme = {
                 fontSize: '1rem',
                 fontWeight: 400,
                 padding: '.375rem .75rem'
-            },
-            fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
+            }
         },
         orange: {
             outline: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: '#be6046',    
                 backgroundColor: 'transparent',
                 borderColor: '#be6046',
@@ -250,6 +261,7 @@ const theme = {
                 padding: '.375rem .75rem'
             },
             default: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: 'white',    
                 backgroundColor: '#be6046',
                 borderColor: '#be6046',
@@ -264,6 +276,7 @@ const theme = {
                 padding: '.375rem .75rem'
             },
             text: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: '#be6046',
                 backgroundColor: 'transparent',
                 cursor: 'pointer',
@@ -275,11 +288,11 @@ const theme = {
                 fontSize: '1rem',
                 fontWeight: 400,
                 padding: '.375rem .75rem'
-            },
-            fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
+            }
         },
         danger: {
             outline: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: '#F2545B',    
                 backgroundColor: 'transparent',
                 borderColor: '#F2545B',
@@ -294,6 +307,7 @@ const theme = {
                 padding: '.375rem .75rem'
             },
             default: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: 'white',    
                 backgroundColor: '#F2545B',
                 borderColor: '#F2545B',
@@ -308,6 +322,7 @@ const theme = {
                 padding: '.375rem .75rem'
             },
             text: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: '#F2545B',
                 backgroundColor: 'transparent',
                 cursor: 'pointer',
@@ -319,11 +334,11 @@ const theme = {
                 fontSize: '1rem',
                 fontWeight: 400,
                 padding: '.375rem .75rem'
-            },
-            fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
+            }
         },
         success: {
             outline: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: '#63A375',    
                 backgroundColor: 'transparent',
                 borderColor: '#63A375',
@@ -338,6 +353,7 @@ const theme = {
                 padding: '.375rem .75rem'
             },
             default: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: 'white',    
                 backgroundColor: '#63A375',
                 borderColor: '#63A375',
@@ -352,6 +368,7 @@ const theme = {
                 padding: '.375rem .75rem'
             },
             text: {
+                fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
                 color: '#63A375',
                 backgroundColor: 'transparent',
                 cursor: 'pointer',
@@ -363,8 +380,7 @@ const theme = {
                 fontSize: '1rem',
                 fontWeight: 400,
                 padding: '.375rem .75rem'
-            },
-            fontFamily: `'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif`,
+            }
         }
     }
 };
