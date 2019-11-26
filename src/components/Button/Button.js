@@ -17,15 +17,19 @@ const styles = theme => ({
     'blue-default': theme.button.blue.default,
     'blue-outline': theme.button.blue.outline,
     'blue-text': theme.button.blue.text,
+    'blue-disabled': theme.button.blue.disabled,
     'orange-default': theme.button.orange.default,
     'orange-outline': theme.button.orange.outline,
     'orange-text': theme.button.orange.text,
+    'orange-disabled': theme.button.orange.disabled,
     'danger-default': theme.button.danger.default,
     'danger-outline': theme.button.danger.outline,
     'danger-text': theme.button.danger.text,
+    'danger-disabled': theme.button.danger.disabled,
     'success-default': theme.button.success.default,
     'success-outline': theme.button.success.outline,
     'success-text': theme.button.success.text,
+    'success-disabled': theme.button.success.disabled,
     'link-blue-default': theme.button.link.blue.default,
     'link-blue-outline': theme.button.link.blue.outline,
     'link-blue-text': theme.button.link.blue.text,
@@ -42,13 +46,13 @@ const styles = theme => ({
 
 // Define the component using these styles and pass it to the classes prop
 // use this to assign scoped class names
-const Button = ({classes, children, handleClick, variant, root, url}) => (
+const Button = ({classes, children, handleClick, variant, root, url, size, disabled}) => (
     (url === undefined ? (
-        <button className={variant ? classes[root + '-' + variant] : classes[root + '-default']} onClick={() => handleClick()}>
+        <button className={variant ? classes[root + '-' + variant] : classes[root + '-default']} style={size === "sm" ? {fontSize: ".7rem"} : (size === "lg" ? {fontSize: "1.3rem"} : {fontSize: "1rem"})} onClick={() => handleClick()}>
             {children}
         </button>
     ) : (
-        <a href={url} className={variant ? classes['link-' + root + '-' + variant] : classes['link-' + root + '-default']}>
+        <a href={url} className={variant ? classes['link-' + root + '-' + variant] : classes['link-' + root + '-default']} style={size === "sm" ? {fontSize: ".7rem"} : (size === "lg" ? {fontSize: "1.3rem"} : {fontSize: "1rem"})}>
             {children}
         </a>
     ))
